@@ -12,7 +12,7 @@ val VMModule = module {
 
     //ViewModels definitions
     viewModel { SplashViewModel() }
-    viewModel { HomeViewModel() }
+    viewModel { HomeViewModel(get()) }
     viewModel { FragmentViewModel(get(named("detail"))) }
 
 }

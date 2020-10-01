@@ -14,6 +14,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         loadFragments()
+
     }
 
     private fun loadFragments() {

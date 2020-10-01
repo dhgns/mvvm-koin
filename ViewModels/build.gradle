@@ -25,6 +25,7 @@ android {
 
 dependencies {
     implementation project(':Models')
+    implementation project(':Data')
 
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
