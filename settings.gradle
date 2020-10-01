@@ -1,0 +1,4 @@
+include ':Models'
+include ':ViewModels'
+include ':Views'
+rootProject.name = "MvvMKoin"
